@@ -5,7 +5,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  padding: 5%;
+  padding: 2%;
 }
 
 #root {
@@ -13,13 +13,13 @@ body {
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-rows: auto auto;
-  grid-gap: 30px;
+  grid-gap: 2em;
 }
 
 .years {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-  grid-gap: 15px;
+  grid-gap: 1em;
 }
 
 form {
@@ -51,8 +51,8 @@ button {
 .box {
   background-color: #efefef;
   border-radius: 50%;
-  height: 12px;
-  width: 12px;
+  height: 0.5em;
+  width: 0.5em;
   cursor: pointer;
 }
 
