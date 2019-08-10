@@ -3,7 +3,7 @@ import Tippy from '@tippy.js/react'
 class App extends React.Component {
   state = {
     years: "90",
-    date: "1983-09-15",
+    date: "1978-07-13",
     total: ""
   };
 
